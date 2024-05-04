@@ -59,7 +59,14 @@ body {
 }
 
 #video-background {
-    display: none;
+    position: fixed;
+    right: -200%;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+    filter: blur(4px);
+    opacity: 0;
 }
 
 
