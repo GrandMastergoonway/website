@@ -67,6 +67,9 @@ body {
     z-index: -100;
     filter: blur(4px);
     opacity: .8;
+    display: none;
+}
+
 }
 
 .modal{
